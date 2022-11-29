@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.squere {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.squere-1 {
+    background-color: #7fff00;
+    float: left;
+}
+
+.squere-2 {
+    background-color: #ff7f50;
+    float: right;
+}
+
+article {
+    background-color: #6495ed;
+    overflow: hidden; /*esconde o que está fora*/
+}
+
+p {
+    clear: both;/*caso tenha um elelemnto a esquerda ou a direita, ela joga o conteúdo para baixo*/
+}
